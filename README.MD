@@ -25,7 +25,7 @@
 ## 远程仓库
 
 
-* ssh-keygen -t rsa -C "name@email.com" # 生成 SSH key，windows 使用 git bash 执行该命令 # 生成 SSH key，windows 使用 git bash 执行该命令 # 生成 SSH key，windows 使用 git bash 执行该命令。文件生成在用户目录下的 .ssh 文件夹
+* ssh-keygen -t rsa -C "name@email.com" # 生成 SSH key，windows 使用 git bash 执行该命令 # 生成 SSH key，windows 使用 git bash 执行该命令。文件生成在用户目录下的 .ssh 文件夹
 
 * git remote add origin [url] # 添加远程仓库命名为 origin 
 
