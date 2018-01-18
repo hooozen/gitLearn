@@ -34,3 +34,14 @@
 * git push origin master # 将本地分支推送到指定远程仓库分支 
 
 * git clone [url] # 从 url 克隆远程仓库至本地
+
+
+## 分支
+
+` git checkout -b dev `
+创建并切换到 dev 分支，相当于执行了下面两条命令
+` git branch dev `
+` git checkout dev `
+
+` git branch ` 
+查看当前分支，该命令会列出所有分支，在当前分支前会有一个 * 号
