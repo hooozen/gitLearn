@@ -12,3 +12,6 @@ git reset --hard [commint id] # 回退/恢复至指定 commit id 的版本
 
 add 命令将文件内容提交到暂存区
 commit 命令将暂存区的文件一次性提交到分支
+
+git diff HEAD -- fileName # 查看当前分支和当前文件内容的不同
+
