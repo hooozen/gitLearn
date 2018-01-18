@@ -22,8 +22,13 @@ git checkout -- fileName # 撤销工作区的更改(包括删除操作)
 
 #### 远程库
 
+
+ssh-keygen -t rsa -C "name@email.com" # 生成 SSH key，windows 使用 git bash 执行该命令 # 生成 SSH key，windows 使用 git bash 执行该命令 # 生成 SSH key，windows 使用 git bash 执行该命令。文件生成在用户目录下的 .ssh 文件夹
+
 git remote add origin [url] # 添加远程仓库命名为 origin 
 
 git push -u origin master # 将本地分支推送到 origin 远程仓库。当第一次推送时，使用 -u 将本地仓库和远程仓库关联起来
 
 git push origin master # 将本地分支推送到指定远程仓库分支 
+
+git clone [url] # 从 url 克隆远程仓库至本地
