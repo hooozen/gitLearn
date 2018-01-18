@@ -45,3 +45,17 @@
 
 ` git branch ` 
 查看当前分支，该命令会列出所有分支，在当前分支前会有一个 * 号
+
+` git merge dev `
+合并 dev 分支到当前分支
+
+` git branch -d dev `
+合并 dev 到 master 后即可把 dev 分支删除掉
+
+### 分支命令小结
+` git branch ` 查看分支
+` git branch <name> ` 创建分支
+` git checkout <name> ` 切换分支
+` git checkout -b <name> ` 创建并切换分支
+` git merge <name> ` 合并指定分支到当前分支
+` git branch -d <name> ` 删除指定分支
