@@ -11,28 +11,32 @@
 1. 准备开发新 Feature
 
 
+
 2. 新建分支进行开发 
 
 `git checkout -b feature-vulcan`
 
 
-3. 开发完毕，提交更改 
 
+3. 开发完毕，提交更改 
 ```
 add .
 commit -m 'add feature vulcan
 ```
+
 
 4. 切回 dev 分支
 
 `git checkout dev`
 
 
+
 #### 情况一 该功能被分析可以添加到分支
 
 5. 合并 feature-vulcan 分支
 
-`git merge --no-ff feature-vulcan`
+`git merge --no-ff -m "add feature vulcan" feature-vulcan`
+
 
 
 6. 删除分支，完成工作
@@ -40,11 +44,13 @@ commit -m 'add feature vulcan
 `git branch -d feature-vulcan`
 
 
+
 #### 情况二 该新功能被抛弃
 
 5. 删除被抛弃的 feature-vulcan 分支
 
 `git branch -d feature-vulcan`
+
 
 
 6. 此时会发现删除失败，因为分支还没有被合并，需要强制删除
