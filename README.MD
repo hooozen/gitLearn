@@ -11,4 +11,5 @@
 |- Base.md: 基础命令
 |- Conflict.md: 冲突解决
 |- BranchManage.md: 分支管理
+|- Bug.md: Bug 修复
 ```
