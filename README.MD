@@ -11,4 +11,5 @@
 |- BranchManage.md: 分支管理
 |- Bug.md: Bug 修复
 |- Feature.md: 添加新功能
+|- Cooperation.md: 多人协作
 ```
